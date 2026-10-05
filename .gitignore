@@ -1,0 +1,23 @@
+#Gradle build output and caches
+.grade/
+build/
+backend/build/
+
+#IDE specific files(Eclipse, IntelliJ, VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+#OS generated files
+.DS_Store
+Thumbs.db
+
+#Environment varaibles and secrets
+.env
+*.properties
+secrets/
